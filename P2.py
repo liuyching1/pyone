@@ -9,6 +9,14 @@ inp = eval(input('請輸入數字:')) #將輸入數值自動轉型
 print(type(inp)) 
 print(inp)
 print("#------------#")
+x=int(input('Input Int x:'))
+y=int(input('Input Int y:'))
+if x > y:
+    print("x=%d > y=%d" %(x,y))  #""內皆為字串
+else :
+    print("x=%d <= y=%d" %(x,y))
+print("if之後執行")
+print("#------------#")
 score = eval(input('請輸入成績:'))
 if ( 0 <= score  <=100 ):
     if( score == 100) :
@@ -25,4 +33,18 @@ if ( 0 <= score  <=100 ):
         print(score,'不及格')
 else: #上述條件均不成立則會執行此行指令
     print('成績輸入錯誤')
-# print("#------------#")
+print("#------------#")
+n1 = eval(input('輸入數字1:'))
+n2 = eval(input('輸入數字2:'))
+n3 = eval(input('輸入數字3:'))
+if ( n1 > n2 ):
+    if( n2 > n3): 
+        pass #
+        print("n1 > n2 > n3 : %d > %d > %d " %(n1,n2,n3))
+    else :
+        print("n1 > n3 > n2 : %d > %d > %d " %(n1,n3,n2))
+else: # n1 <n2
+    if( n2 < n3):
+        print("n3 > n2 > n1 : %d > %d > %d " %(n3,n2,n1))
+    else :
+        print("n2 > n3 > n1 : %d > %d > %d " %(n2,n3,n1))
