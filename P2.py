@@ -1,10 +1,13 @@
-# print("#------------#")
-# inf = float(input('請輸入浮點數:'))
-# print(type(inf))
-# print(inf)
-# inp = eval(input('請輸入數字:')) #將自動轉型
-# print(type(inp)) 
-# print(inp)
+print("#------------#")
+inti = int(input('請輸入整數:'))
+print(type(ini)) #若輸入整數數值將程式錯誤
+print(inti)
+inf = float(input('請輸入浮點數:'))
+print(type(inf))
+print(inf)
+inp = eval(input('請輸入數字:')) #將輸入數值自動轉型
+print(type(inp)) 
+print(inp)
 print("#------------#")
 score = eval(input('請輸入成績:'))
 if ( 0 <= score  <=100 ):
