@@ -44,3 +44,8 @@ dict
 >>> x = {4,3,2,1} #對照33行
 >>> x == xxx
 True
+
+input() #回傳字串型態
+int(input()) #轉成int型態
+eval((input()) #轉成數值型 (*)
+x= eval(input('這是提示文字'))
